@@ -56,6 +56,7 @@ app.get("/compose", function(req, res){
 });
 
 app.post("/compose", function(req, res){
+  
   const post = new Post ({
 
     title: req.body.postTitle,
@@ -74,8 +75,8 @@ app.post("/compose", function(req, res){
   });
  
 
-  //posts.push(post);
-   res.redirect("/");
+ 
+  // res.redirect("/");
 
 });
 

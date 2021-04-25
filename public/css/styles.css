@@ -3,10 +3,7 @@ html {
   position: relative;
 }
 
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -37,4 +34,10 @@ html {
 	margin-top: 25px;
 	font-size: 12px;
   color: #fff;
+}
+.press{
+  background-color: #fea82f;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 80%;
 }
